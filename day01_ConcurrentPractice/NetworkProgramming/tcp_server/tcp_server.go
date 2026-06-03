@@ -46,4 +46,9 @@ func handleConnection(conn net.Conn) {
 	if err != nil {
 		log.Printf("Server write error: %v", err)
 	}
+	//// 如果想直接用 _, err = fmt.Fprintf(conn, msg+"\n") 也可以
+	//_, err = fmt.Fprintf(conn, "ACK: %s\n", ackMsg)
+	//if err != nil {
+	//	log.Printf("Server write error: %v", err)
+	//}
 }
