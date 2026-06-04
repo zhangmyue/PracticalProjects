@@ -9,7 +9,7 @@ COPY go.mod .
 RUN go mod download
 
 # 4. 复制源代码
-COPY .. .
+COPY . .
 
 # 5. 编译 Go 程序（生成可执行文件 app）
 RUN go build -o app .

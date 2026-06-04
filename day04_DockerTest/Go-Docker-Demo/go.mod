@@ -1,3 +1,3 @@
-module day04_DockerTest
+module Go-Docker-Demo
 
 go 1.22
