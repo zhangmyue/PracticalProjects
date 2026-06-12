@@ -1,0 +1,16 @@
+# JetBrains IDEA 全量忽略
+.idea/
+*.iml
+
+# Go 编译产出二进制
+*.exe
+*.out
+bin/
+
+# 临时文件、日志
+*.log
+*.tmp
+.DS_Store
+
+# 系统隐藏文件
+Thumbs.db
